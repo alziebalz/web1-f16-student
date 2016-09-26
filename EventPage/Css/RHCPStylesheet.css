@@ -1,8 +1,14 @@
 h1#top {
+	font-family: "boucherie-block";
 	color: #FF0000;
+	font-size: 295%;
 	}
 h1#top b {
+	font-family: "boucherie-block";
 	color: black;
 	}
+h2 {
+	font-family: "paralucent", sans-serif;
+}
 
 
