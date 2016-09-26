@@ -2,13 +2,16 @@ body {
 	font-family: Verdana;
 }
 h1, h3 {
-	color: ##FF0000;
+	color: #FF0000;
 }
 p {
 	font-family: Arial;
 }
 
-h1 b {
+h1 id=top b {
 	color: black;
+}
+h1 id=top {
+	color: #FF0000;
 }
 
