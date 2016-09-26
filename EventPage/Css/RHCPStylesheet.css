@@ -1,4 +1,4 @@
-body {
+table {
 	font-family: Verdana;
 }
 h1, h3 {
@@ -8,10 +8,10 @@ p {
 	font-family: Arial;
 }
 
-h1 id=top b {
+h1#top b {
 	color: black;
 }
-h1 id=top {
+h1#top {
 	color: #FF0000;
 }
 
