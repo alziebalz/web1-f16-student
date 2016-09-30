@@ -1,0 +1,27 @@
+h1#top {
+	line-height: 25%;
+	font-family: "acumin-pro-semi-condensed",sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	color: #FF0000;
+	font-size: 295%;
+	}
+h1#top b {
+	font-family: "acumin-pro-semi-condensed",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	color: black;
+	}
+h2 {
+	font-family: "paralucent",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 200%;
+}
+ul {
+	font-family: "ingra",sans-serif;
+	font-style: normal;
+	font-weight: 200;
+}
+
+
