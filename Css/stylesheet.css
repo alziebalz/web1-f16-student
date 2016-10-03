@@ -1,0 +1,40 @@
+html{
+	background-image: url(http://previews.123rf.com/images/terriana/terriana1509/terriana150900148/46073544-Floral-seamless-pattern-Flower-background-Floral-tile-spring-texture-with-flowers--Stock-Vector.jpg);
+	background-size: 400px;
+	background-repeat: repeat;
+}
+
+body {
+	font-family: "filson-soft", sans-serif;
+	color: gray;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	margin-top: 30px;
+	background-color: white;
+	word-wrap: break-word; width: 500px;
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-top: 25px;
+	padding-bottom: 100px;
+}
+h1 {
+	font-family: "filson-soft",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	color: pink;
+}
+h5 {
+	color: pink;
+}
+hr {
+	width: 500px;
+}
+p#minioncaption, ul, p {
+	color: #CAC7C7;
+}
+div {
+	word-wrap: break-word; width: 500px;
+}
+
+
