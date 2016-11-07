@@ -1,0 +1,20 @@
+body{
+}
+header{background-color: #a93c9d;
+		padding-top: 50px;
+		padding-left: 25px;}
+
+h1, h2 {color: #fff;}
+
+nav li{color: #fff;
+	display: inline;
+	margin-right: 10px;
+	}
+	
+footer {background-color: #a93c9d;
+		padding-bottom: 50px;
+		padding-top: 10px;}
+
+.footer > li {
+	display: inline;
+}
