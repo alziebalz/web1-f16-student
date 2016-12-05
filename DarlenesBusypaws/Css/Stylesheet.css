@@ -1,15 +1,21 @@
-body{
+body{ width: 100%;
 }
+
+#pair{width: 100%;}
+
 header{background-color: #a93c9d;
-		padding-top: 50px;
-		padding-left: 25px;}
+}
 
-h1, h2 {color: #fff;}
+h1, h2 {color: #fff;
+		text-align: center;}
 
-nav li{color: #fff;
+nav {text-align: center;}
+
+nav li{color: pink;
 	display: inline;
 	margin-right: 10px;
 	}
+	nav {background-color: #fff;}
 	
 footer {background-color: #a93c9d;
 		padding-bottom: 50px;
