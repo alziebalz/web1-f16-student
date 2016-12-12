@@ -1,3 +1,9 @@
+body{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
 ul {
 	list-style-type: none;
 }
@@ -7,3 +13,17 @@ li {
 	padding: 20px;
 }
 
+h1 {
+	font-family: "retiro-std-48pt",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 300%;
+	letter-spacing: 4px;
+}
+
+h2 {
+	font-family: "mrs-eaves",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100%;
+}
