@@ -3,19 +3,16 @@ body{ width: 100%;
 
 #pair{width: 100%;}
 
-header{background-color: #a93c9d;
-}
+h1, h2 {margin-left: 5%;}
 
-h1, h2 {color: #fff;
-		text-align: center;}
 
-nav {text-align: center;}
-
-nav li{color: pink;
+nav li{
 	display: inline;
 	margin-right: 10px;
 	}
-	nav {background-color: #fff;}
+
+nav {background-color: #fff;
+		margin-left: 2%;}
 	
 footer {background-color: #a93c9d;
 		padding-bottom: 50px;

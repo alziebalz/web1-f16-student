@@ -15,7 +15,44 @@
 	<ul>
 	<li><p>#8+ <a href="Portfolio/index.html">My Portfolio</a> (<a href="portfolioprocess/index.html">Process</a>)</p>
 	<li><p>#7 <a href="ZenGarden/index.html">CSS Zen Garden</a></p>
-	<li><p>#6 <a href="Accessibility/index.html">Event Page made Accessible</a></p>
+	<li><p>#6 <a href="accessibility/index.html">Event Page made Accessible</a></p>
+		<ul>
+			<li>Immediately noticed:
+				<ul>
+					<li>VoiceOver reads "Bullets" when reading navigation</li>
+					<li>Points out header items and what level header, consider not having them as headers? Or double check the importance of the headers that are there?</li>
+					<li>Reads out horizontal break; are they really necessary?</li>
+				</ul></li><br />
+			<li>Use Cases:
+				<ul>
+					<li>Find ticket information</li>
+					<li>Learn more about the band itself</li>
+					<li>Learn more about the band members</li>
+				</ul>
+			</li><br />
+			<li>*** TESTING: Try to find out when the Red Hot Chili Peppers will be in Washington, using VoiceOver.
+				<ol>Steps taken (via Nav route)
+					<li>Navigate into HTML content</li>
+					<li>Navigate through 4 items by pressing Ctrl-Option-Right Arrow until you get to "Navigation"</li>
+					<li>Enter navigation area and press Ctrl-Option-Right Arrow once to select Bullet</li>
+					<li>Press Ctrl-Option-Right Arrow again to get to "Tour Dates"</li>
+					<li>Press Ctrl-Option-Space to follow link</li>
+					<li>**** APPARENTLY this is a dead end, when you follow the link it brings you to the white space on the right of the table, so this link will not work trying to read the table information. Will now try to get to the table information by going through all of the items on the page.</li>	
+					</li>
+				</ol>
+				<br />
+				<ol>Steps taken (via HTML elements route)
+					<li>Navigate into HTML content</li>
+					<li>Navigate over to table by clicking Ctrl-Option-Right Arrow FIFTEEN TIMES to get to table of tour dates. (Title, header level one, header level two, photo, Navigation bar, bullet, nav item, bullet, nav item, bullet, nav item, end of navigation, horizontal rule, table)</li>
+					<li>Click Ctrl-Option-Right Arrow one more time once on the table, and it will tell you there are 5 rows and 50 columns, and tells you to press Control-Option to enter the table content, and then any of the arrow keys to navigate around the table.</li>
+					<li>You have to do a lot of listening to get to what you need to, though it would work. It also always tells you what the coordinates are of the cell that you are on, as well as the date. This led me to believe that if I navigated over to the venue, it would provide all of the information before it, but that is not the case, it just always reads the name of the row. I wonder if it is necessary to have the date be called out in bold as the name of the row, or if it could expedite the process without it.</li>
+					<br />
+					<li>DISCOVERY
+						<ul>
+							<li>Changing the row names from the date shortened what has to be read</li>
+							<li>It is hard to understand the abbreviations of the months with the voice reader.</li>
+							<li>VoiceOver, however, already knows the abbreviations for the week days and reads them out in full.</li>
+						</ul>
 	<li><p>#4 and #5 Darlene's BusyPaws <a href="Darlene/index.html">Client Notes</a> and 
 		<a href="DarlenesBusypaws/index.html">Website</a></p>
 	
